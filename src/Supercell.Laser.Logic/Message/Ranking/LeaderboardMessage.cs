@@ -84,7 +84,7 @@
             Stream.WriteVInt(playerIndex);
             Stream.WriteVInt(0);
             Stream.WriteVInt(0);
-            Stream.WriteString("RU");
+            Stream.WriteString("MUK");
         }
 
         public override int GetMessageType()

@@ -39,7 +39,7 @@
             stream.WriteVInt(Trophies);
             stream.WriteVInt(RequiredTrophies); // trophies required
             ByteStreamHelper.WriteDataReference(stream, null);
-            stream.WriteString("RU");
+            stream.WriteString("MUK");
             stream.WriteVInt(0);
             stream.WriteVInt(0);
         }
