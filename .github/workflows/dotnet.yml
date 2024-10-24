@@ -23,7 +23,7 @@ jobs:
     - name: Restore dependencies
       run: cd src/Supercell.Laser.Server
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Supercell.Laser.Server.csproj
     - name: Build
       run: dotnet build Supercell.Laser.Server.csproj --no-restore
     - name: Test
