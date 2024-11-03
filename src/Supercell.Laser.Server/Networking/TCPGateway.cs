@@ -17,7 +17,9 @@
       Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
       Socket.Bind(new IPEndPoint(IPAddress.Parse(host), port));
       Socket.Listen(100);
-
+      Socket6 = new Socket(AddressFamily.InterNetworkV6, SocketType.Stream, ProtocolType.Tcp);
+      Socket6.Bind(new IPEndPoint(IPAddress.IPv6Any, port));
+      Socket6.Listen(100);
       AcceptEvent = new ManualResetEvent(false);
 
       Thread = new Thread(TCPGateway.Update);
