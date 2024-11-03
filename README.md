@@ -1,5 +1,5 @@
 # RoyaleBrawl
-Private brawl stars server with PvP Battles (v27.269)
+Private brawl stars server with PvP Battles (v27.269) [DotNet8 port]
 
 # this server is made by xeondev and not by me! i'm just archiving it here bc other archives on github are broken or don't include the client. also maybe i'll do a few improvements if i feel like it. :)
 
