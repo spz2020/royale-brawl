@@ -1,3 +1,4 @@
+[![.NET](https://github.com/spz2020/royale-brawl/actions/workflows/dotnet.yml/badge.svg)](https://github.com/spz2020/royale-brawl/actions/workflows/dotnet.yml)
 # RoyaleBrawl
 Private brawl stars server with PvP Battles (v27.269)
 
@@ -20,7 +21,7 @@ You need to setup mysql server and import `database.sql` file from this reposito
 - Set your ip in `config.json` -> `udp_host`
 - Set your mysql database name, password, and username in `config.json`
 ##### Client
-- Download apk here: [link](https://mega.nz/file/zuAVxKII#JmnmSeK7V76x1xhpaOcBJa29ls5eLFsem7Gdo029hj4)
+- Download apk 
 - Open this file: `lib/armeabi-v7a/libreversed.script.so` and put your ip address in `HostPatcher`
 - Compile apk and play enjoy playing this server.
 
