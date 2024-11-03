@@ -7,6 +7,8 @@
     private static List < Connection > ActiveConnections;
 
     private static Socket Socket;
+    private static Socket Socket6;
+
     private static Thread Thread;
 
     private static ManualResetEvent AcceptEvent;
