@@ -1,6 +1,6 @@
 [![.NET](https://github.com/spz2020/royale-brawl/actions/workflows/dotnet.yml/badge.svg)](https://github.com/spz2020/royale-brawl/actions/workflows/dotnet.yml)
 # RoyaleBrawl
-Private brawl stars server with PvP Battles (v27.269)
+Private brawl stars server with PvP Battles (v27.269) [DotNet8 port]
 
 # this server is made by xeondev and not by me! i'm just archiving it here bc other archives on github are broken or don't include the client. also maybe i'll do a few improvements if i feel like it. :)
 
@@ -26,7 +26,7 @@ You need to setup mysql server and import `database.sql` file from this reposito
 - Compile apk and play enjoy playing this server.
 
 ### Requirements
-- dotnet 6.0
+- dotnet 8.0
 - mysql (on windows I prefer *XAMPP* with *phpmyadmin*)
 
 ### Features:
