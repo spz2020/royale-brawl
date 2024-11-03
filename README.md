@@ -25,7 +25,7 @@ You need to setup mysql server and import `database.sql` file from this reposito
 - Compile apk and play enjoy playing this server.
 
 ### Requirements
-- dotnet 6.0
+- dotnet 8.0
 - mysql (on windows I prefer *XAMPP* with *phpmyadmin*)
 
 ### Features:
